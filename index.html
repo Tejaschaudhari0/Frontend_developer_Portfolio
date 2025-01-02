@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejas Chaudhari Portfolio</title>
+
+    <!-- Favicons for different devices and screen resolutions -->
+    <link rel="icon" href="Images/My-logo.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="Images/My-logo.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="Images/My-logo.png" sizes="64x64" type="image/png">
+    <link rel="icon" href="Images/My-logo.png" sizes="192x192" type="image/png">
+    <link rel="apple-touch-icon" href="Images/My-logo.png" sizes="180x180">
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+
+<body>
+
+    <navbar class="navbar">
+        <img class="logo" src="Images/logo.png" alt="logo">
+
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </navbar>
+
+    <section class="hero" id="home">
+        <div class="hero-info">
+            <h2>Welcome To My Portfolio!</h2>
+            <p>I'm Tejas Chaudhari,
+                Here, you'll find My Journey, Projects, and Certifications, Showcasing the Skills I bring to the Table
+            </p>
+            <h1> Job Role : Data Analyst</h1>
+
+            <a href="#contact" class="con-btn">
+                Get in Touch
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="hero-img">
+            <img src="Images/My-photo.jpeg" alt="developer">
+        </div>
+
+
+    </section>
+
+
+    <section class="resume" id="resume">
+        <div class="resume-container">
+            <div class="resume-main">
+                <h2>Why Hire Me?</h2>
+                <p class="desc">
+                    I create clean, responsive websites tailored to your needs, combining style and functionality
+                    with a strong command of HTML, CSS, and JavaScript to ensure an exceptional user experience.
+                </p>
+
+                
+
+                <!-- Dropdown for smaller screens -->
+                <select class="resume-dropdown">
+                    <option value="Aboutme" selected>About Me</option>
+                    <option value="Skills">Skills</option>
+                    <option value="Education">Education</option>
+                </select>
+
+                <!-- Buttons for larger screens -->
+                <div class="resume-buttons">
+                    <button class="resume-btn active">About Me</button>
+                    <button class="resume-btn">Skills</button>
+                    <button class="resume-btn">Education</button>
+                </div>
+            </div>
+
+            <div class="resume-main">
+                <!-- About Me -->
+                <div class="resume-detail Aboutme active">
+                    <h2 class="heading">About Me</h2>
+                    <p class="desc">
+                        "I’m an aspiring Frontend Developer with a background in Data Science. I enjoy creating
+                        responsive,
+                        user-friendly websites using HTML, CSS, and JavaScript. With strong problem-solving skills and a
+                        passion for learning, I aim to build web applications that are both functional and engaging."
+                    </p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p>Name: <span>Tejas Chaudhari</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Profile: <span>Frontend Developer</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Experience: <span>Fresher</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Email: <span>tejaschaudhari224@gmail.com</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Phone: <span>8850760373</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Location: <span>Kalyan, Mumbai, India</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Age: <span>24 years old</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Status: <span>Unmarried</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="resume-detail Skills">
+                    <h2 class="heading">Skills</h2>
+                    <div class="resume-lists">
+                        <div class="resume-items"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+                        <div class="resume-items"><i class="fa-brands fa-css3"></i><span>CSS</span></div>
+                        <div class="resume-items"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                    </div>
+                    <div class="soft-skills">
+                        <h3 class="soft-skills-heading">Soft-skills:</h3>
+                        <p class="soft-skills-heading-desc">Quick Learner, Honest, Teamwork, Problem Solving.</p>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="resume-detail Education">
+                    <h2 class="heading">Education</h2>
+                    <div class="education-info">
+                        <span class="date">2022 - 2024</span>
+                        <h3>Master of Science in Data Science & Big Data Analytics</h3>
+                        <span class="position"> - B.K. Birla College, Kalyan</span>
+                        <p class="mt-4">CGPA: <span>8.54</span></p>
+                    </div>
+                    <div class="education-info">
+                        <span class="date">2019 - 2022</span>
+                        <h3>Bachelor of Computer Science</h3>
+                        <span class="position"> - K.M. Agrawal College, Kalyan</span>
+                        <p class="mt-4">CGPA: <span>9.39</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Project section -->
+
+    <section class="project" id="project">
+        <h2> Projects</h2>
+        <div class="project-container">
+            <div class="project-box">
+                <div class="project-info active">
+                    <p class="numb">01</p>
+                    <h3>Amazon.com Website clone</h3>
+                    <p>Created a static Amazon.com clone using HTML and CSS, replicating the homepage and key UI
+                        elements. Designed a responsive layout with a focus on clean structure and styling, ensuring
+                        compatibility across different devices and screen sizes.</p>
+                    <div class="tech">
+                        <p>HTML, CSS</p>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <p class="numb">02</p>
+                    <h3>Data Analyst Protfolio</h3>
+                    <p>This portfolio highlights my journey as a data analyst, showcasing a collection of projects that
+                        demonstrate my skills in data analysis, visualization, and problem-solving. Through real-world
+                        datasets and hands-on experience, I have built and presented meaningful insights that drive
+                        decision making.</p>
+                    <div class="tech">
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <p class="numb">03</p>
+                    <h3> IMDb Movie Search Portal</h3>
+                    <p>Developed a movie search application using the IMDb API, HTML, CSS, and JavaScript. Enabled users
+                        to search for movies and display details like title, year, genre, and ratings in a user-friendly
+                        interface. Focused on responsive design and seamless API integration for an optimal user
+                        experience.</p>
+                    <div class="tech">
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <p class="numb">04</p>
+                    <h3>Image Search Website Using Unsplash API </h3>
+                    <p>Built an image search website using the Unsplash API, HTML, CSS, and JavaScript. Users can search
+                        for high-quality images by keyword and view details like image resolution and photographer
+                        information. Focused on clean design and smooth API integration for an engaging user experience.
+                    </p>
+                    <div class="tech">
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <p class="numb">05</p>
+                    <h3>Mini Project Portfolio</h3>
+                    <p>A collection of interactive projects built with HTML, CSS, and JavaScript, featuring a
+                        Calculator, Bill splitter, Login form, and Quiz game. These projects demonstrate basic web
+                        development skills with a focus on functionality and user experience.</p>
+                    <div class="tech">
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="project-box">
+                <div class="img-info">
+                    <div class="img-slide">
+                        <div class="img-item">
+                            <a href="https://tejaschaudhari0.github.io/Amazon_clone/#" target="_blank"><img
+                                    src="Images/Project-1.png" alt="project image"></a>
+                        </div>
+                        <div class="img-item">
+                            <a href="https://tejaschaudhari0.github.io/Tejaschaudhari0-Data_Analyst_portfolio/"
+                                target="_blank"><img src="Images/Project-2.png" alt="project image"></a>
+                        </div>
+                        <div class="img-item">
+                            <a href="https://tejaschaudhari0.github.io/IMDB_Movie_search/" target="_blank"><img
+                                    src="Images/Project-3.png" alt="project image"></a>
+                        </div>
+                        <div class="img-item">
+                            <a href="https://tejaschaudhari0.github.io/Image_search_engine/" target="_blank"><img
+                                    src="Images/Project-4.png" alt="project image"></a>
+                        </div>
+                        <div class="img-item">
+                            <a href="https://tejaschaudhari0.github.io/Mini_Projects_HTML_CSS_JS/" target="_blank"><img
+                                    src="Images/Project-5.png" alt="project image"></a>
+                        </div>
+                    </div>
+                    <div class="navigation">
+                        <button class="arrow-left disabled"><i class="fa-solid fa-circle-arrow-left"></i></button>
+                        <button class="arrow-right"><i class="fa-solid fa-circle-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="Contact" id="contact">
+        <div class="contact-container active">
+            <div class="contact-box">
+                <h2>Let's Work Together</h2>
+                <p class="desc">"I’m eager to start my professional journey and contribute to a dynamic team. If you
+                    have any questions about my skills, experiences, or potential opportunities, feel free to reach out.
+                    I’d love to connect and discuss how I can add value to your team or project. Looking forward to
+                    hearing from you!"</p>
+                <div class="contact-detail">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="detail">
+                        <p>Email :</p>
+                        <p>tejaschaudhari224@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="detail">
+                        <p>Phone :</p>
+                        <p>8850760373</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="detail">
+                        <p>Addres :</p>
+                        <p>Kalyan, Mumbai, India</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="contact-box">
+                <form action="https://api.web3forms.com/submit" method="POST" autocomplete="off">
+                    <h2 class="heading">Contact Me!</h2>
+                    <div class="field-box">
+                        <input type="hidden" name="access_key" value="2e3c353d-a618-4c0c-bd11-eb20ba87ef51">
+                        <input type="text" name="name" placeholder="Full Name" required autocomplete="off">
+                        <input type="email" name="email" placeholder="Email Address" required autocomplete="off">
+                        <input type="text" name="Number" placeholder="Phone Number" required autocomplete="off">
+                        <input type="text" name="subject" placeholder="Email Subject" required autocomplete="off">
+                        <textarea name="message" placeholder="Your Message" required autocomplete="off"></textarea>
+                    </div>
+                    <button type="submit" class="con-btn">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="resume-download">
+            <h4 class="res"><a href="" download class="resume-button" target="_blank" title="download Resume">My Resume</a></h4>
+        </div>
+
+        <div class="footer-container">
+            <p>"Growth in skills is earned, not given."</p>
+            <p>Thanks for visiting my portfolio! Let’s create something awesome together.</p>
+            <p>&copy; 2024 Tejas Chaudhari | Designed & Developed with
+                <i class="fa-brands fa-gratipay"></i>
+            </p>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
