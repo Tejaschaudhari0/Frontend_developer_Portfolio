@@ -838,13 +838,7 @@ a.active {
     border-radius: 10px;
     animation: pulse 1.5s infinite;
     transition: opacity 0.3s ease-in-out;
-    opacity: 1; /* Hide the image until loaded */
-}
-
-.lazy-img.loaded {
-    animation: none;
-    background: none;
-    opacity: 1; /* Show the image once loaded */
+   
 }
 
 @keyframes pulse {
